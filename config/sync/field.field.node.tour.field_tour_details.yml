@@ -1,0 +1,21 @@
+uuid: 012aaabd-ef59-45c6-a6af-e0534b990318
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tour_details
+    - node.type.tour
+  module:
+    - options
+id: node.tour.field_tour_details
+field_name: field_tour_details
+entity_type: node
+bundle: tour
+label: 'Tour Details'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

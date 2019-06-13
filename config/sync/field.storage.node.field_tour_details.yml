@@ -1,0 +1,21 @@
+uuid: d3a9b3c0-c3eb-405c-a55f-a17bbd5843b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tour_details
+field_name: field_tour_details
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

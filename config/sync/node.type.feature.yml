@@ -1,0 +1,17 @@
+uuid: 78fc4470-cb4c-4cf5-b740-cb514f2090bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Feature
+type: feature
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

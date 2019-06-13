@@ -1,0 +1,17 @@
+uuid: 764861b1-309a-4456-8a8e-7ae9f9c3eb06
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Story
+type: story
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

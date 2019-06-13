@@ -1,0 +1,38 @@
+uuid: 9209bd42-340b-4f23-816b-26cfc72f775f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tour_background_image
+    - node.type.tour
+  module:
+    - image
+id: node.tour.field_tour_background_image
+field_name: field_tour_background_image
+entity_type: node
+bundle: tour
+label: 'Background Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
