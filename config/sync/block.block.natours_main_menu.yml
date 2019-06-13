@@ -13,7 +13,7 @@ _core:
 id: natours_main_menu
 theme: natours
 region: header
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -1,0 +1,59 @@
+uuid: cd2c3f48-6423-4e49-8c25-caba64cec523
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_section
+    - field.field.block_content.header_section.field_header_section_image
+    - field.field.block_content.header_section.field_header_section_main_button
+    - field.field.block_content.header_section.field_header_section_subtitle
+    - field.field.block_content.header_section.field_header_section_title
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.header_section.default
+targetEntityType: block_content
+bundle: header_section
+mode: default
+content:
+  field_header_section_image:
+    weight: 29
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_header_section_main_button:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_header_section_subtitle:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_header_section_title:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

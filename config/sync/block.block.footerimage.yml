@@ -1,0 +1,25 @@
+uuid: a7a09bb7-2836-4857-978a-176504725f52
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_image:1fada6c3-2a65-4307-8762-81295e51627f'
+  module:
+    - block_content
+  theme:
+    - natours
+id: footerimage
+theme: natours
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:1fada6c3-2a65-4307-8762-81295e51627f'
+settings:
+  id: 'block_content:1fada6c3-2a65-4307-8762-81295e51627f'
+  label: 'Footer Image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

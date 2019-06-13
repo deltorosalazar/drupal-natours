@@ -1,0 +1,21 @@
+uuid: 280d5088-5755-420c-91c9-fbc869512de2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_section
+    - field.storage.block_content.field_header_section_title
+id: block_content.header_section.field_header_section_title
+field_name: field_header_section_title
+entity_type: block_content
+bundle: header_section
+label: Title
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: OUTDOORS
+default_value_callback: ''
+settings: {  }
+field_type: string

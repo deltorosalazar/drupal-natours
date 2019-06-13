@@ -11,7 +11,7 @@ _core:
 id: natours_help
 theme: natours
 region: content
-weight: -30
+weight: -4
 provider: null
 plugin: help_block
 settings:

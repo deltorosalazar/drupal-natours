@@ -1,0 +1,21 @@
+uuid: 6f315569-2620-49eb-8774-a62cc673202a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_section
+    - field.storage.block_content.field_header_section_main_button
+id: block_content.header_section.field_header_section_main_button
+field_name: field_header_section_main_button
+entity_type: block_content
+bundle: header_section
+label: 'Main Button Text'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Discover Our Tours'
+default_value_callback: ''
+settings: {  }
+field_type: string

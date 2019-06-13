@@ -1,0 +1,8 @@
+uuid: 5c662358-4a7d-4bfc-941e-83de5d9ecfdb
+langcode: en
+status: true
+dependencies: {  }
+id: basic_image
+label: 'Basic image'
+revision: 1
+description: ''

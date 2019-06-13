@@ -1,0 +1,25 @@
+uuid: dda395f3-1319-44be-ab72-6bf4e6bb54a2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:db1d9f32-1869-458d-85e6-9861babcae38'
+  module:
+    - block_content
+  theme:
+    - natours
+id: copyright
+theme: natours
+region: footer
+weight: -3
+provider: null
+plugin: 'block_content:db1d9f32-1869-458d-85e6-9861babcae38'
+settings:
+  id: 'block_content:db1d9f32-1869-458d-85e6-9861babcae38'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
