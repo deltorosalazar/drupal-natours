@@ -1,0 +1,22 @@
+uuid: f6b82979-4cd3-4a9b-89e4-48681dde50a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - natours
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: natours_content
+theme: natours
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

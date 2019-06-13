@@ -1,0 +1,22 @@
+uuid: e022171d-e15d-4cdf-bff0-2c2d84e09308
+langcode: en
+status: true
+dependencies:
+  theme:
+    - natours
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: natours_local_tasks
+theme: natours
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

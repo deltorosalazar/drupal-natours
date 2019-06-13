@@ -1,0 +1,20 @@
+uuid: 0e72ca56-316e-4fd2-977c-8ece02a5d74d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - natours
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: natours_local_actions
+theme: natours
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
