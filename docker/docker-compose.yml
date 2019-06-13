@@ -1,0 +1,17 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: drupal-natours
+      POSTGRES_USER: natours
+      POSTGRES_PASSWORD: natours
+    ports:
+      - 5433:5432  
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
